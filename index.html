@@ -4,19 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site web formation git informatique</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="logos"><img src="1789028103727.png" alt="logo du labo academique"><span>labo academique</span></div>
-        <nav>
+    <header class="entete" id="accueil">
+        <div class="logo">
+            <img src="IMG-20261019-WA0087.jpg" alt="Logo de Labo Academy" width="60">
+            <span>Labo Academy</span>
+        </div>
+        <nav class="menu" aria-label="Navigation principale">
             <ul>
-                <li><a href="index.html">accueil</a></li>
-                <li><a href="#">formations</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#inscription">Inscription</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <div class="banniere">
+        <h1>Bienvenue à Labo Academy</h1>
+        <p>Apprenez le <strong>développement web</strong>, le <em>machine learning</em>
+            et le génie logiciel avec des projets concrets.</p>
+        <a href="#inscription" class="bouton">Je m’inscris</a>
+    </div>
+    <main>
+        <section id="formations" class="section-formations">
+            <h2>Nos formations</h2>
+            <article class="carte">
+                <h3>Développement Web</h3>
+                <p>HTML5, CSS3 et JavaScript pour créer des sites modernes.</p>
+                <p>Durée : <span class="duree">24 heures</span></p>
+            </article>
+            <article class="carte">
+                <h3>Machine Learning</h3>
+                <p>Préparer des données, entraîner et évaluer un modèle.</p>
+                <p>Durée : <span class="duree">30 heures</span></p>
+            </article>
+            <article class="carte">
+                <h3>Génie Logiciel</h3>
+                <p>UML, bonnes pratiques de code et travail en équipe.</p>
+                <p>Durée : <span class="duree">36 heures</span></p>
+            </article>
+        </section>
+        <section id="apropos" class="section-apropos">
+            <h2>Pourquoi choisir Labo Academy ?</h2>
+            <ul>
+                <li>Des projets concrets à chaque cours</li>
+                <li>Des enseignants en activité</li>
+                <li>Un suivi personnalisé</li>
+            </ul>
+            <h3>Comment s’inscrire ?</h3>
+            <ol>
+                <li>Remplir le formulaire en ligne</li>
+                <li>Valider son adresse e-mail</li>
+                <li>Choisir sa filière</li>
+            </ol>
+        </section>
+        <section id="inscription" class="section-inscription">
+            <h2>Créer mon compte</h2>
+            <!-- le formulaire arrive à l’étape 7 -->
+        </section>
+    </main>
+    <footer class="pied" id="contact">
+        <h2>Nous contacter</h2>
+        <p>
+            Labo Academy<br>
+            Douala, Cameroun<br>
+            <a href="mailto:contact@laboacademy.cm">contact@laboacademy.cm</a>
+        </p>
+        <p><small>© 2026 Labo Academy · EvangelisteDuCode</small></p>
+    </footer>
 </body>
 
 </html>
